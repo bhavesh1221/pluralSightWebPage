@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <!-- <img src=""> -->
+            </div>
+        <form>
+            <label for="" class="first">Email or Username</label><br>
+            <input type="text" class="second" name="firstName" ><br>   
+            <label for="" class="first">Password</label><br>
+            <input type="password" class="second" name="pass"><br>   
+        </form>   
+        <div class="lefsec">  
+         <input type="button" value="Sign in" class="sign">
+         <p><a href="#" class="move">Forgot Password?</a></p>
+         <p><a href="#" class="move1">Sign in with company or school</a></p>
+         <h3>Or</h3>
+         <button type="button" class="acc" onclick="acco()" ><strong>Create an account</strong></button>
+        </div>
+           <footer> Copyright © 2004 - 2021 Pluralsight LLC. All rights reserved.
+           <br><a href="#" class="fot" >Terms of Use</a> | <a href="#" class="fot">Privacy Policy</a> </footer>
+
+
+        </div>
+        <div class="right">
+            <h1>Build The Skills</h1>
+                 <h1>You need to Deliver Results.</h1>
+            <button type="button" class="free" onclick="login()" id="oc"><strong>Free Trial</strong></button>
+        </div>
+    </div>
+    <script>
+        function login(){
+            alert("Login First");
+        }
+        function acco(){
+            window.location.href = 'https://www.google.com/';
+        }
+    </script>
+</body>
+</html>
